@@ -33,51 +33,102 @@ No local-Hubble target is used to determine the geometric factor.
 
 For the canonical conservative GEO architecture,
 
-$$A+B=1,$$
+\[
+A+B=1,
+\]
 
 with
 
-$$A=\eta,\quad B=1-\eta.$$
+\[
+A=\eta,
+\qquad
+B=1-\eta,
+\]
 
 and
 
-$$\eta=\frac35,$$
+\[
+\eta=\frac35,
+\]
 
 the GEO coupling amplitude is
 
-$$f_c=\sqrt{\eta} = \sqrt{\frac35}.$$
+\[
+f_c=\sqrt{\eta}
+=
+\sqrt{\frac35}.
+\]
 
 At the canonical membrane orientation
 
-$$\theta_M=\frac{\pi}{4},$$
+\[
+\theta_M=\frac{\pi}{4},
+\]
 
 the first projected coordinate is
 
-$$A' = A\cos\theta_M + B\sin\theta_M.$$
+\[
+A'
+=
+A\cos\theta_M
++
+B\sin\theta_M.
+\]
 
 Since
 
-$$\cos\left(\frac{\pi}{4}\right) = \sin\left(\frac{\pi}{4}\right) = \frac1{\sqrt2},$$
+\[
+\cos\left(\frac{\pi}{4}\right)
+=
+\sin\left(\frac{\pi}{4}\right)
+=
+\frac1{\sqrt2},
+\]
 
 and
 
-$$A+B=1,$$
+\[
+A+B=1,
+\]
 
 we obtain
 
-$$\boxed{ A'=\frac1{\sqrt2} }.$$
+\[
+\boxed{
+A'=\frac1{\sqrt2}
+}.
+\]
 
 The GEO projection ratio is therefore
 
-$$P_{\rm GEO} = \frac{f_c}{A'}.$$
+\[
+P_{\rm GEO}
+=
+\frac{f_c}{A'}.
+\]
 
 Hence
 
-$$P_{\rm GEO} = \frac{\sqrt{3/5}} {1/\sqrt2} = \sqrt{\frac65}.$$
+\[
+P_{\rm GEO}
+=
+\frac{\sqrt{3/5}}
+{1/\sqrt2}
+=
+\sqrt{\frac65}.
+\]
 
 Therefore
 
-$$\boxed{ P_{\rm GEO} = \sqrt{\frac65} = 1.095445115010332\ldots }$$
+\[
+\boxed{
+P_{\rm GEO}
+=
+\sqrt{\frac65}
+=
+1.095445115010332\ldots
+}
+\]
 
 This is the central mathematical result examined by this repository.
 
@@ -87,41 +138,75 @@ This is the central mathematical result examined by this repository.
 
 Before fixing the canonical value of \(\eta\), the projection ratio may be written as
 
-$$P(\eta,\theta) = \frac{\sqrt{\eta}} {\eta\cos\theta+(1-\eta)\sin\theta}.$$
+\[
+P(\eta,\theta)
+=
+\frac{\sqrt{\eta}}
+{\eta\cos\theta+(1-\eta)\sin\theta}.
+\]
 
 At the balanced membrane,
 
-$$\theta=\frac{\pi}{4},$$
+\[
+\theta=\frac{\pi}{4},
+\]
 
 this becomes
 
-$$P\left(\eta,\frac{\pi}{4}\right) = \frac{\sqrt{\eta}} {\left[\eta+(1-\eta)\right]/\sqrt2}.$$
+\[
+P\left(\eta,\frac{\pi}{4}\right)
+=
+\frac{\sqrt{\eta}}
+{\left[\eta+(1-\eta)\right]/\sqrt2}.
+\]
 
 Since
 
-$$\eta+(1-\eta)=1,$$
+\[
+\eta+(1-\eta)=1,
+\]
 
 we obtain
 
-$$\boxed{ P\left(\eta,\frac{\pi}{4}\right) = \sqrt{2\eta} }.$$
+\[
+\boxed{
+P\left(\eta,\frac{\pi}{4}\right)
+=
+\sqrt{2\eta}
+}.
+\]
 
 For the canonical GEO value
 
-$$\eta=\frac35,$$
+\[
+\eta=\frac35,
+\]
 
 this gives
 
-$$\boxed{ P_{\rm GEO} = \sqrt{2\frac35} = \sqrt{\frac65} }.$$
+\[
+\boxed{
+P_{\rm GEO}
+=
+\sqrt{2\frac35}
+=
+\sqrt{\frac65}
+}.
+\]
 
 Thus \(6/5\) is not introduced as an independently fitted constant.
 
 It is the closed algebraic form of the canonical GEO projection at
 
-$$\eta=\frac35$$
+\[
+\eta=\frac35
+\]
 
 and
 
-$$\theta=\frac{\pi}{4}.$$
+\[
+\theta=\frac{\pi}{4}.
+\]
 
 ---
 
@@ -131,41 +216,79 @@ $$\theta=\frac{\pi}{4}.$$
 
 For the reduced conservative GEO state,
 
-$$\boxed{ A+B=1 }.$$
+\[
+\boxed{
+A+B=1
+}.
+\]
 
 ## 4.2 Canonical partition
 
-$$\boxed{ A=\eta=\frac35 }$$
+\[
+\boxed{
+A=\eta=\frac35
+}
+\]
 
 and therefore
 
-$$\boxed{ B=1-\eta=\frac25 }.$$
+\[
+\boxed{
+B=1-\eta=\frac25
+}.
+\]
 
 Numerically,
 
-$$A=0.6,\quad B=0.4.$$
+\[
+A=0.6,
+\qquad
+B=0.4.
+\]
 
 ## 4.3 Coupling relation
 
 The canonical GEO coupling satisfies
 
-$$\boxed{ \eta=f_c^2 }.$$
+\[
+\boxed{
+\eta=f_c^2
+}.
+\]
 
 Therefore
 
-$$\boxed{ f_c=\sqrt{\eta} }.$$
+\[
+\boxed{
+f_c=\sqrt{\eta}
+}.
+\]
 
 For
 
-$$\eta=\frac35,$$
+\[
+\eta=\frac35,
+\]
 
-$$\boxed{ f_c = \sqrt{\frac35} = 0.774596669241483\ldots }.$$
+\[
+\boxed{
+f_c
+=
+\sqrt{\frac35}
+=
+0.774596669241483\ldots
+}.
+\]
 
 ## 4.4 Canonical membrane
 
 The balanced tangent/membrane orientation used in the present External Operator realization is
 
-$$\boxed{ \theta_M=\frac{\pi}{4} }.$$
+\[
+\boxed{
+\theta_M=\frac{\pi}{4}
+}.
+\]
 
 This repository uses the exact membrane orientation.
 
@@ -177,47 +300,103 @@ More advanced angular reconstruction states belong to broader GEO developments a
 
 The conservative pair is
 
-$$\mathbf{v}=(A,B)^T.$$
+\[
+\mathbf v
+=
+\begin{pmatrix}
+A\\
+B
+\end{pmatrix}.
+\]
 
 The canonical orthogonal projection operator is
 
-$$\boxed{Q(\theta)=\left[\begin{array}{cc}\cos\theta & \sin\theta \cr -\sin\theta & \cos\theta\end{array}\right].$$
+\[
+\boxed{
+Q(\theta)
+=
+\begin{pmatrix}
+\cos\theta & \sin\theta\\
+-\sin\theta & \cos\theta
+\end{pmatrix}
+}.
+\]
 
 The projected state is
 
-$$\mathbf v' = Q(\theta)\mathbf v.$$
+\[
+\mathbf v'
+=
+Q(\theta)\mathbf v.
+\]
 
 Therefore
 
-$$A' = A\cos\theta+B\sin\theta$$
+\[
+A'
+=
+A\cos\theta+B\sin\theta
+\]
 
 and
 
-$$B' = -A\sin\theta+B\cos\theta.$$
+\[
+B'
+=
+-A\sin\theta+B\cos\theta.
+\]
 
 At
 
-$$\theta=\frac{\pi}{4},$$
+\[
+\theta=\frac{\pi}{4},
+\]
 
 we obtain
 
-$$A' = \frac{A+B}{\sqrt2} = \frac1{\sqrt2},$$
+\[
+A'
+=
+\frac{A+B}{\sqrt2}
+=
+\frac1{\sqrt2},
+\]
 
 and
 
-$$B' = \frac{B-A}{\sqrt2}.$$
+\[
+B'
+=
+\frac{B-A}{\sqrt2}.
+\]
 
 For
 
-$$A=0.6,\quad B=0.4.$$
+\[
+A=0.6,
+\qquad
+B=0.4,
+\]
 
 the projected coordinates are
 
-$$\boxed{ A' = 0.7071067811865475\ldots }$$
+\[
+\boxed{
+A'
+=
+0.7071067811865475\ldots
+}
+\]
 
 and
 
-$$\boxed{ B' = -0.1414213562373095\ldots }.$$
+\[
+\boxed{
+B'
+=
+-0.1414213562373095\ldots
+}.
+\]
 
 The GEO External Operator reproduces these values to floating-point precision.
 
@@ -227,67 +406,126 @@ The GEO External Operator reproduces these values to floating-point precision.
 
 Let
 
-$$A+B=1,$$
+\[
+A+B=1,
+\]
 
 with
 
-$$A=\eta,\quad B=1-\eta.$$
+\[
+A=\eta,
+\qquad
+B=1-\eta,
+\]
 
 and let
 
-$$f_c^2=\eta.$$
+\[
+f_c^2=\eta.
+\]
 
 Let the conservative pair be transformed by
 
-$$Q\left(\frac{\pi}{4}\right).$$
+\[
+Q\left(\frac{\pi}{4}\right).
+\]
 
 Then
 
-$$A' = \frac1{\sqrt2}.$$
+\[
+A'
+=
+\frac1{\sqrt2}.
+\]
 
 Therefore
 
-$$\frac{f_c}{A'} = \sqrt{2\eta}.$$
+\[
+\frac{f_c}{A'}
+=
+\sqrt{2\eta}.
+\]
 
 For the canonical value
 
-$$\eta=\frac35,$$
+\[
+\eta=\frac35,
+\]
 
 it follows that
 
-$$\boxed{ \frac{f_c}{A'} = \sqrt{\frac65} }.$$
+\[
+\boxed{
+\frac{f_c}{A'}
+=
+\sqrt{\frac65}
+}.
+\]
 
 ## Proof
 
 At
 
-$$\theta=\frac{\pi}{4},$$
+\[
+\theta=\frac{\pi}{4},
+\]
 
-$$A' = A\frac1{\sqrt2} + B\frac1{\sqrt2}.$$
+\[
+A'
+=
+A\frac1{\sqrt2}
++
+B\frac1{\sqrt2}.
+\]
 
 Thus
 
-$$A' = \frac{A+B}{\sqrt2}.$$
+\[
+A'
+=
+\frac{A+B}{\sqrt2}.
+\]
 
 Since
 
-$$A+B=1,$$
+\[
+A+B=1,
+\]
 
-$$A' = \frac1{\sqrt2}.$$
+\[
+A'
+=
+\frac1{\sqrt2}.
+\]
 
 Also,
 
-$$f_c=\sqrt{\eta}.$$
+\[
+f_c=\sqrt{\eta}.
+\]
 
 Therefore
 
-$$\frac{f_c}{A'} = \frac{\sqrt{\eta}} {1/\sqrt2} = \sqrt{2\eta}.$$
+\[
+\frac{f_c}{A'}
+=
+\frac{\sqrt{\eta}}
+{1/\sqrt2}
+=
+\sqrt{2\eta}.
+\]
 
 For
 
-$$\eta=\frac35,$$
+\[
+\eta=\frac35,
+\]
 
-$$\frac{f_c}{A'} = \sqrt{\frac65}.$$
+\[
+\frac{f_c}{A'}
+=
+\sqrt{\frac65}.
+\]
 
 QED.
 
@@ -299,17 +537,30 @@ The projection ratio is not introduced as an additional fitted parameter.
 
 At the canonical membrane,
 
-$$A' = \frac1{\sqrt2} = \cos\left(\frac{\pi}{4}\right).$$
+\[
+A'
+=
+\frac1{\sqrt2}
+=
+\cos\left(\frac{\pi}{4}\right).
+\]
 
 Therefore
 
-$$\frac{f_c}{A'} = \frac{f_c} {\cos(\pi/4)}.$$
+\[
+\frac{f_c}{A'}
+=
+\frac{f_c}
+{\cos(\pi/4)}.
+\]
 
 The operator formulation used in this repository therefore reproduces the simpler GEO geometric projection form at the exact canonical membrane.
 
 The closed form
 
-$$\sqrt{\frac65}$$
+\[
+\sqrt{\frac65}
+\]
 
 is a derived algebraic consequence of that geometry.
 
@@ -323,11 +574,19 @@ GEO also contains a radial/effective relation.
 
 The general law used in this repository is
 
-$$\boxed{ R^3=\mu_{\rm eff} }$$
+\[
+\boxed{
+R^3=\mu_{\rm eff}
+}
+\]
 
 or equivalently
 
-$$\boxed{ R=\mu_{\rm eff}^{1/3} }.$$
+\[
+\boxed{
+R=\mu_{\rm eff}^{1/3}
+}.
+\]
 
 Here:
 
@@ -339,17 +598,25 @@ These quantities must not be universally identified.
 
 In general,
 
-$$\boxed{ \mu_{\rm eff}\neq\eta }.$$
+\[
+\boxed{
+\mu_{\rm eff}\neq\eta
+}.
+\]
 
 Therefore
 
-$$R=\eta^{1/3}$$
+\[
+R=\eta^{1/3}
+\]
 
 must not be interpreted as the general GEO radial law.
 
 That expression can occur only in a special case in which an application independently establishes
 
-$$\mu_{\rm eff}=\eta.$$
+\[
+\mu_{\rm eff}=\eta.
+\]
 
 The present Hubble projection derivation does not require that identification.
 
@@ -359,11 +626,19 @@ The present Hubble projection derivation does not require that identification.
 
 The radial transformation
 
-$$\mu_{\rm eff} \longrightarrow R=\mu_{\rm eff}^{1/3}$$
+\[
+\mu_{\rm eff}
+\longrightarrow
+R=\mu_{\rm eff}^{1/3}
+\]
 
 and the canonical projection
 
-$$(\eta,\theta_M) \longrightarrow P_{\rm GEO}$$
+\[
+(\eta,\theta_M)
+\longrightarrow
+P_{\rm GEO}
+\]
 
 belong to different layers of the tested GEO implementation.
 
@@ -371,7 +646,9 @@ This separation is verified numerically.
 
 With
 
-$$\eta=0.6$$
+\[
+\eta=0.6
+\]
 
 held fixed, \(\mu_{\rm eff}\) can be varied over a range of values.
 
@@ -381,11 +658,19 @@ The External Operator also returns changes in state-dependent derived quantities
 
 At the same time, the canonical projected observable remains
 
-$$A' = 0.7071067811865475\ldots$$
+\[
+A'
+=
+0.7071067811865475\ldots
+\]
 
 and the projection ratio remains
 
-$$P_{\rm GEO} = 1.095445115010332\ldots$$
+\[
+P_{\rm GEO}
+=
+1.095445115010332\ldots
+\]
 
 for the tested canonical projection.
 
@@ -431,29 +716,66 @@ The more extensive GEO External Operator v2 is outside the scope of the present 
 
 For
 
-$$A=0.6,\quad B=0.4,\quad \theta=\frac{\pi}{4}.$$
+\[
+A=0.6,
+\qquad
+B=0.4,
+\qquad
+\theta=\frac{\pi}{4},
+\]
 
 the analytic calculation gives
 
-$$A'_{\rm analytic} = 0.707106781186547\ldots$$
+\[
+A'_{\rm analytic}
+=
+0.707106781186547\ldots
+\]
 
 and
 
-$$B'_{\rm analytic} = -0.141421356237309\ldots$$
+\[
+B'_{\rm analytic}
+=
+-0.141421356237309\ldots
+\]
 
 The External Operator returns the same values at the displayed precision.
 
 The projection ratio reconstructed from the engine is
 
-$$P_{\rm engine} = \frac{f_c} {A'_{\rm engine}} = 1.095445115010332\ldots$$
+\[
+P_{\rm engine}
+=
+\frac{f_c}
+{A'_{\rm engine}}
+=
+1.095445115010332\ldots
+\]
 
 while the analytic result is
 
-$$P_{\rm analytic} = \sqrt{\frac65} = 1.095445115010332\ldots$$
+\[
+P_{\rm analytic}
+=
+\sqrt{\frac65}
+=
+1.095445115010332\ldots
+\]
 
 The observed difference in the reference reproduction is approximately
 
-$$\boxed{ \left| P_{\rm engine} - P_{\rm analytic} \right| \approx 2.22\times10^{-16} }.$$
+\[
+\boxed{
+\left|
+P_{\rm engine}
+-
+P_{\rm analytic}
+\right|
+\approx
+2.22\times10^{-16}
+}.
+\]
 
 This difference is consistent with floating-point precision.
 
@@ -467,15 +789,36 @@ A separate application hypothesis is required.
 
 The hypothesis examined in this repository is
 
-$$\boxed{ \frac{H_{\rm GEO}} {H_{\rm base}} = P_{\rm GEO} }.$$
+\[
+\boxed{
+\frac{H_{\rm GEO}}
+{H_{\rm base}}
+=
+P_{\rm GEO}
+}.
+\]
 
 Therefore
 
-$$\boxed{ H_{\rm GEO} = H_{\rm base} P_{\rm GEO} }.$$
+\[
+\boxed{
+H_{\rm GEO}
+=
+H_{\rm base}
+P_{\rm GEO}
+}.
+\]
 
 Using the derived canonical ratio,
 
-$$\boxed{ H_{\rm GEO} = H_{\rm base} \sqrt{\frac65} }.$$
+\[
+\boxed{
+H_{\rm GEO}
+=
+H_{\rm base}
+\sqrt{\frac65}
+}.
+\]
 
 This distinction is fundamental:
 
@@ -492,15 +835,31 @@ Only after the geometric factor has been derived is a Hubble baseline introduced
 
 For the reference value
 
-$$H_{\rm base} = 67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},$$
+\[
+H_{\rm base}
+=
+67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},
+\]
 
 the application hypothesis gives
 
-$$H_{\rm GEO} = 67.40 \sqrt{\frac65}.$$
+\[
+H_{\rm GEO}
+=
+67.40
+\sqrt{\frac65}.
+\]
 
 Therefore
 
-$$\boxed{ H_{\rm GEO} = 73.833000751696 \ {\rm km\,s^{-1}\,Mpc^{-1}} }.$$
+\[
+\boxed{
+H_{\rm GEO}
+=
+73.833000751696
+\ {\rm km\,s^{-1}\,Mpc^{-1}}
+}.
+\]
 
 This numerical value is obtained by applying the frozen geometric factor to the stated external baseline.
 
@@ -514,7 +873,9 @@ It is not used to determine:
 
 No local value such as
 
-$$73.04\ {\rm km\,s^{-1}\,Mpc^{-1}}$$
+\[
+73.04\ {\rm km\,s^{-1}\,Mpc^{-1}}
+\]
 
 is used as a fitting target in this derivation.
 
@@ -524,23 +885,41 @@ is used as a fitting target in this derivation.
 
 The order of the calculation is
 
-$$\text{GEO architecture}$$
+\[
+\text{GEO architecture}
+\]
 
-$$\Downarrow$$
+\[
+\Downarrow
+\]
 
-$$\text{canonical membrane projection}$$
+\[
+\text{canonical membrane projection}
+\]
 
-$$\Downarrow$$
+\[
+\Downarrow
+\]
 
-$$P_{\rm GEO}$$
+\[
+P_{\rm GEO}
+\]
 
-$$\Downarrow$$
+\[
+\Downarrow
+\]
 
-$$\text{external } H_{\rm base}$$
+\[
+\text{external } H_{\rm base}
+\]
 
-$$\Downarrow$$
+\[
+\Downarrow
+\]
 
-$$H_{\rm GEO}.$$
+\[
+H_{\rm GEO}.
+\]
 
 The Hubble baseline enters only after the internal geometric factor has been obtained.
 
@@ -568,7 +947,11 @@ The repository contains automated mathematical and regression tests for:
 
 The frozen validation suite currently contains
 
-$$\boxed{ 130\ {\rm passing\ tests} }.$$
+\[
+\boxed{
+130\ {\rm passing\ tests}
+}.
+\]
 
 To run the suite:
 
@@ -847,11 +1230,24 @@ It does **not**, by itself, establish:
 
 The mathematical statement tested here is
 
-$$\boxed{ P_{\rm GEO} = \sqrt{\frac65} }.$$
+\[
+\boxed{
+P_{\rm GEO}
+=
+\sqrt{\frac65}
+}.
+\]
 
 The physical hypothesis is
 
-$$\boxed{ \frac{H_{\rm GEO}} {H_{\rm base}} = P_{\rm GEO} }.$$
+\[
+\boxed{
+\frac{H_{\rm GEO}}
+{H_{\rm base}}
+=
+P_{\rm GEO}
+}.
+\]
 
 Internal mathematical closure and empirical validation are different claims.
 
@@ -861,15 +1257,34 @@ Internal mathematical closure and empirical validation are different claims.
 
 Define an observed Hubble-scale ratio
 
-$$\mathcal R_{\rm obs} = \frac{H_{\rm local}} {H_{\rm base}}.$$
+\[
+\mathcal R_{\rm obs}
+=
+\frac{H_{\rm local}}
+{H_{\rm base}}.
+\]
 
 The specific GEO-Hubble projection hypothesis predicts
 
-$$\boxed{ \mathcal R_{\rm GEO} = \sqrt{\frac65} }.$$
+\[
+\boxed{
+\mathcal R_{\rm GEO}
+=
+\sqrt{\frac65}
+}.
+\]
 
 A residual may therefore be defined as
 
-$$\boxed{ \Delta_{\rm GEO} = \mathcal R_{\rm obs} - \sqrt{\frac65} }.$$
+\[
+\boxed{
+\Delta_{\rm GEO}
+=
+\mathcal R_{\rm obs}
+-
+\sqrt{\frac65}
+}.
+\]
 
 Once observational estimates, uncertainties, and covariance assumptions are specified, this prediction can be tested statistically.
 
@@ -950,47 +1365,98 @@ See:
 
 The corrected GEO-Hubble reconstruction studied here is
 
-$$A+B=1,$$
+\[
+A+B=1,
+\]
 
 with
 
-$$A=\eta=\frac35, \quad B=\frac25,$$
+\[
+A=\eta=\frac35,
+\qquad
+B=\frac25,
+\]
 
 and
 
-$$f_c=\sqrt{\eta} = \sqrt{\frac35}.$$
+\[
+f_c=\sqrt{\eta}
+=
+\sqrt{\frac35}.
+\]
 
 At the canonical membrane,
 
-$$\theta_M=\frac{\pi}{4}.$$
+\[
+\theta_M=\frac{\pi}{4}.
+\]
 
 The projected observable is
 
-$$A' = A\cos\theta_M + B\sin\theta_M = \frac1{\sqrt2}.$$
+\[
+A'
+=
+A\cos\theta_M
++
+B\sin\theta_M
+=
+\frac1{\sqrt2}.
+\]
 
 Therefore
 
-$$\boxed{ P_{\rm GEO} = \frac{f_c}{A'} = \sqrt{\frac65} }.$$
+\[
+\boxed{
+P_{\rm GEO}
+=
+\frac{f_c}{A'}
+=
+\sqrt{\frac65}
+}.
+\]
 
 Separately, the GEO-Hubble physical application hypothesis is
 
-$$\boxed{ H_{\rm GEO} = H_{\rm base} \sqrt{\frac65} }.$$
+\[
+\boxed{
+H_{\rm GEO}
+=
+H_{\rm base}
+\sqrt{\frac65}
+}.
+\]
 
 For the reference baseline
 
-$$H_{\rm base} = 67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},$$
+\[
+H_{\rm base}
+=
+67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},
+\]
 
 the conditional projected value is
 
-$$\boxed{ H_{\rm GEO} = 73.833000751696 \ {\rm km\,s^{-1}\,Mpc^{-1}}.$$
+\[
+\boxed{
+H_{\rm GEO}
+=
+73.833000751696
+\ {\rm km\,s^{-1}\,Mpc^{-1}}.
+\]
 
 The general radial law remains
 
-$$\boxed{ R=\mu_{\rm eff}^{1/3} },$$
+\[
+\boxed{
+R=\mu_{\rm eff}^{1/3}
+},
+\]
 
 and no universal identity
 
-$$\mu_{\rm eff}=\eta$$
+\[
+\mu_{\rm eff}=\eta
+\]
 
 is required by this projection derivation.
 
