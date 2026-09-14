@@ -1,0 +1,137 @@
+
+================================================================================================================
+GEO-HUBBLE GEOMETRIC PROJECTION — HUBBLE APPLICATION TEST
+================================================================================================================
+
+This is the first Hubble-specific script in the chain.
+
+The GEO geometry is frozen before H_base is introduced.
+
+No local-H0 target is used to derive eta, theta,
+f_c, A', or P_geo.
+
+================================================================================================================
+EXTERNAL HUBBLE INPUT
+================================================================================================================
+H_base                             : 67.400000000000 km s^-1 Mpc^-1
+
+H_base is treated as an externally supplied baseline.
+It is not derived by GEO.
+
+================================================================================================================
+RECONSTRUCT FROZEN GEO PROJECTION FACTOR
+================================================================================================================
+API version                         : 1
+eta                                 : 0.600000000000000
+mu_eff reference                    : 0.810400000000000
+R reference                         : 0.932323170115423
+f_c = sqrt(eta)                     : 0.774596669241483
+A' engine                           : 0.707106781186547
+P_geo engine                        : 1.095445115010332
+P_geo closed = sqrt(6/5)            : 1.095445115010332
+|difference|                        : 2.220446049250313e-16
+Frozen GEO projection-factor closure                                               PASS
+
+================================================================================================================
+HUBBLE PROJECTION
+================================================================================================================
+H_base                              : 67.400000000000
+P_geo                               : 1.095445115010332
+
+H_geo = H_base * P_geo              : 73.833000751696
+H_geo analytic                      : 73.833000751696
+|engine - analytic|                 : 1.421085471520200e-14
+
+absolute shift                      : +6.433000751696
+fractional shift                    : +0.095445115010332
+percentage shift                    : +9.544511501%
+Hubble multiplication closure                                                      PASS
+
+================================================================================================================
+DIMENSIONAL CHECK
+================================================================================================================
+P_geo is dimensionless.
+
+Therefore:
+
+  [H_geo] = [P_geo] [H_base]
+          = 1 * [H_base]
+          = km s^-1 Mpc^-1
+
+The transformation preserves Hubble units.
+
+================================================================================================================
+CLOSED-FORM RESULT
+================================================================================================================
+P_geo = sqrt(6/5)
+
+Therefore:
+
+  H_geo = H_base * sqrt(6/5)
+
+For H_base = 67.400000000000:
+
+  H_geo = 73.833000751696 km s^-1 Mpc^-1
+
+================================================================================================================
+NO-TARGET AUDIT
+================================================================================================================
+Quantities fixed before H_base:
+
+  eta = 3/5
+  A = eta
+  B = 1-eta
+  theta = pi/4
+  f_c = sqrt(eta)
+  A' = 1/sqrt(2)
+  P_geo = sqrt(6/5)
+
+No value of H_local was used.
+
+No Hubble value was used to solve for:
+
+  eta
+  theta
+  f_c
+  mu_eff
+  R
+  Phi
+  alpha
+
+================================================================================================================
+PHYSICAL CLAIM BOUNDARY
+================================================================================================================
+MATHEMATICAL RESULT
+
+  P_geo = sqrt(6/5)
+
+APPLICATION HYPOTHESIS
+
+  H_projected / H_base = P_geo
+
+NUMERICAL CONSEQUENCE
+
+  H_projected = 73.833000751696 km s^-1 Mpc^-1
+
+The software calculation validates the internal projection arithmetic.
+It does not by itself prove that the physical Universe must realize this Hubble mapping.
+
+================================================================================================================
+FINAL HUBBLE-APPLICATION VERDICT
+================================================================================================================
+Projection factor derived before Hubble input                                      PASS
+Hubble calculation matches closed form                                             PASS
+
+RESULT: PASS
+
+Frozen geometric factor:
+
+  P_geo = 1.095445115010332
+
+Reference projection:
+
+  67.400000000000 km s^-1 Mpc^-1
+        ->
+  73.833000751696 km s^-1 Mpc^-1
+
+This numerical output follows from the declared GEO-Hubble application hypothesis.

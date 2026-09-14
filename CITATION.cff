@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it."
+
+title: "GEO-Hubble Geometric Projection"
+type: software
+
+authors:
+  - family-names: "Torreblanca"
+    given-names: "Leonel Hernan"
+    orcid: "https://orcid.org/0009-0001-2095-4499"
+
+version: "1.0.0"
+date-released: 2026-09-14
+
+repository-code: "https://github.com/LeoTorreblanca/GEO-Hubble-Geometric-Projection"
+
+abstract: >
+  Reproducible mathematical and computational audit of the GEO Hubble
+  geometric-projection mapping. The repository verifies the corrected
+  radial law R = mu_eff^(1/3), the canonical 45-degree membrane projection,
+  the independence of the radial and projection sectors, and the closed-form
+  projection factor P_GEO = sqrt(6/5). The mapping from an external Hubble
+  baseline to a projected Hubble value is explicitly treated as a physical
+  application hypothesis rather than as a consequence established solely
+  by the software tests.
+
+keywords:
+  - "GEO"
+  - "hidden geometry"
+  - "Hubble tension"
+  - "projection geometry"
+  - "cosmology"
+  - "reproducibility"
+
+license: "MIT"

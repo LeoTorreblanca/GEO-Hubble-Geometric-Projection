@@ -1,0 +1,40 @@
+GEO-Hubble-Geometric-Projection
+Frozen Reproducibility Environment
+==================================
+
+UTC DATE
+Mon Sep 14 02:03:27 UTC 2026
+
+SYSTEM
+Linux leo 6.18.33.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun 18 21:54:43 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+PYTHON
+Python 3.12.3
+Executable:
+/home/leone/GEO-EXTERNAL-TEST/GEO-External-Operator/.venv/bin/python
+
+PIP
+pip 26.2.1 from /home/leone/GEO-EXTERNAL-TEST/GEO-External-Operator/.venv/lib/python3.12/site-packages/pip (python 3.12)
+
+PYTEST
+pytest 9.1.1
+
+GEO EXTERNAL OPERATOR
+API version: 1
+
+OPTIONAL / SCIENTIFIC PYTHON PACKAGES
+numpy               : NOT INSTALLED
+scipy               : NOT INSTALLED
+cobaya              : NOT INSTALLED
+pytest              : 9.1.1
+scikit-build-core   : NOT INSTALLED
+
+EXTERNAL OPERATOR COMMIT
+003402ef5edff2fe6efa020c368de8064e711732
+
+EXTERNAL OPERATOR STATUS
+
+GEO ORIGINAL COMMIT
+7606fef854aeb3fbe6082a78f7794209eab850da
+
+GEO ORIGINAL STATUS
