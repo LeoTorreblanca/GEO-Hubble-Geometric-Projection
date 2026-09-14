@@ -181,7 +181,7 @@ $$\mathbf{v}=(A,B)^T.$$
 
 The canonical orthogonal projection operator is
 
-$$\boxed{Q(\theta)=\left[\begin{array}{cc}\cos\theta & \sin\theta \cr -\sin\theta & \cos\theta\end{array}\right].$$
+$$\boxed{Q(\theta)=\left[\begin{array}{cc}\cos\theta & \sin\theta \cr -\sin\theta & \cos\theta\end{array}\right]}.$$
 
 The projected state is
 
@@ -982,7 +982,7 @@ $$H_{\rm base} = 67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},$$
 
 the conditional projected value is
 
-$$\boxed{ H_{\rm GEO} = 73.833000751696 \ {\rm km\,s^{-1}\,Mpc^{-1}}.$$
+$$\boxed{H_{\rm GEO}=73.833000751696\ {\rm km\,s^{-1}\,Mpc^{-1}}}.$$
 
 The general radial law remains
 
