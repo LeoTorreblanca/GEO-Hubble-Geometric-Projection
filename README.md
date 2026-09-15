@@ -331,9 +331,9 @@ $$\boxed{ R=\mu_{\rm eff}^{1/3} }.$$
 
 Here:
 
-- \(\eta\) is the canonical architectural efficiency;
-- \(\mu_{\rm eff}\) is an effective state supplied to the radial sector;
-- \(R\) is the corresponding radial response.
+- $\eta$ is the canonical architectural efficiency;
+- $\mu_{\rm eff}$ is an effective state supplied to the radial sector;
+- $R$ is the corresponding radial response.
 
 These quantities must not be universally identified.
 
