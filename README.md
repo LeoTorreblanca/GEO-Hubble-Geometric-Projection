@@ -479,8 +479,8 @@ $$\boxed{ H_{\rm GEO} = H_{\rm base} \sqrt{\frac65} }.$$
 
 This distinction is fundamental:
 
-- \(P_{\rm GEO}=\sqrt{6/5}\) is the mathematical consequence of the stated canonical projection;
-- identifying a Hubble-scale ratio with \(P_{\rm GEO}\) is the physical GEO-Hubble application hypothesis.
+- $P_{\rm GEO}=\sqrt{6/5}$ is the mathematical consequence of the stated canonical projection;
+- identifying a Hubble-scale ratio with $P_{\rm GEO}$ is the physical GEO-Hubble application hypothesis.
 
 The two statements are related but distinct.
 
