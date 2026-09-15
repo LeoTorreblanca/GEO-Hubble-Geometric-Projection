@@ -506,11 +506,11 @@ This numerical value is obtained by applying the frozen geometric factor to the 
 
 It is not used to determine:
 
-- \(\eta\);
-- \(f_c\);
-- \(\theta_M\);
-- \(A'\);
-- \(P_{\rm GEO}\).
+- $\eta$;
+- $f_c$;
+- $\theta_M$;
+- $A'$;
+- $P_{\rm GEO}$.
 
 No local value such as
 
@@ -553,7 +553,7 @@ This ordering prevents a desired final Hubble value from determining the interna
 The repository contains automated mathematical and regression tests for:
 
 - the corrected radial law;
-- \(\eta/\mu_{\rm eff}\) independence;
+- $\eta/\mu_{\rm eff}$ independence;
 - conservation;
 - the canonical projection matrix;
 - orthogonality;
@@ -562,8 +562,8 @@ The repository contains automated mathematical and regression tests for:
 - inverse reconstruction;
 - analytic-versus-engine agreement;
 - the closed-form projection factor;
-- independence of \(P_{\rm GEO}\) from \(\mu_{\rm eff}\);
-- independence of \(P_{\rm GEO}\) from the Hubble baseline;
+- independence of $P_{\rm GEO}$ from $\mu_{\rm eff}$;
+- independence of $P_{\rm GEO}$ from the Hubble baseline;
 - the final reference Hubble multiplication.
 
 The frozen validation suite currently contains
@@ -608,7 +608,7 @@ File:
 
 Checks:
 
-- \(Q(\pi/4)\);
+- $Q(\pi/4)$;
 - orthogonality;
 - determinant;
 - analytic projection;
@@ -624,11 +624,11 @@ File:
 
 Checks:
 
-- variation of \(\mu_{\rm eff}\);
-- response of \(R\);
+- variation of $\mu_{\rm eff}$;
+- response of $R$;
 - response of state-dependent quantities;
 - stability of the canonical projection;
-- stability of \(P_{\rm GEO}\).
+- stability of $P_{\rm GEO}$.
 
 ## Stage 04 — Hubble projection
 
@@ -796,17 +796,17 @@ The central quantities should be interpreted according to their role.
 
 | Quantity | Role |
 | --- | --- |
-| \(A+B=1\) | conservative GEO relation |
-| \(\eta=3/5\) | canonical GEO partition parameter |
-| \(B=1-\eta\) | complementary partition |
-| \(f_c=\sqrt{\eta}\) | canonical coupling amplitude |
-| \(\theta_M=\pi/4\) | canonical membrane/tangent orientation used here |
-| \(Q(\theta)\) | orthogonal projection operator |
-| \(R=\mu_{\rm eff}^{1/3}\) | general radial/effective law |
-| \(A'=1/\sqrt2\) | derived canonical projected coordinate |
-| \(P_{\rm GEO}=f_c/A'\) | operator-form projection ratio used here |
-| \(P_{\rm GEO}=\sqrt{6/5}\) | closed analytic form at canonical values |
-| \(H_{\rm GEO}/H_{\rm base}=P_{\rm GEO}\) | physical GEO-Hubble application hypothesis |
+| $A+B=1$ | conservative GEO relation |
+| $\eta=3/5$ | canonical GEO partition parameter |
+| $B=1-\eta$ | complementary partition |
+| $f_c=\sqrt{\eta}$ | canonical coupling amplitude |
+| $\theta_M=\pi/4$ | canonical membrane/tangent orientation used here |
+| $Q(\theta)$ | orthogonal projection operator |
+| $R=\mu_{\rm eff}^{1/3}$ | general radial/effective law |
+| $A'=1/\sqrt2$ | derived canonical projected coordinate |
+| $P_{\rm GEO}=f_c/A'$ | operator-form projection ratio used here |
+| $P_{\rm GEO}=\sqrt{6/5}$ | closed analytic form at canonical values |
+| $H_{\rm GEO}/H_{\rm base}=P_{\rm GEO}$ | physical GEO-Hubble application hypothesis |
 
 The detailed dependency map is contained in
 
@@ -842,7 +842,7 @@ It does **not**, by itself, establish:
 - a replacement for General Relativity;
 - a universal modification of cosmological dynamics;
 - that every cosmological observable obeys the same projection;
-- that every local \(H_0\) determination must equal the projected value;
+- that every local $$H_0$$ determination must equal the projected value;
 - that the Hubble tension is definitively resolved.
 
 The mathematical statement tested here is
@@ -905,10 +905,10 @@ and the concise result in
 
 The repository follows six explicit rules.
 
-1. No local Hubble target is used to derive \(P_{\rm GEO}\).
-2. \(\mu_{\rm eff}\) and \(\eta\) are not universally identified.
-3. The radial law is evaluated as \(R=\mu_{\rm eff}^{1/3}\).
-4. The numerical value \(\sqrt{6/5}\) is reconstructed rather than inserted as the primary computational result.
+1. No local Hubble target is used to derive $P_{\rm GEO}$.
+2. $\mu_{\rm eff}$ and $\eta$ are not universally identified.
+3. The radial law is evaluated as $R=\mu_{\rm eff}^{1/3}$.
+4. The numerical value $\sqrt{6/5}$ is reconstructed rather than inserted as the primary computational result.
 5. The Hubble baseline is introduced only after the geometric factor is frozen.
 6. Mathematical closure and empirical validation are reported as different claims.
 
