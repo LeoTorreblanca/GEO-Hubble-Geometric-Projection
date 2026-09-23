@@ -700,7 +700,7 @@ Its explicit closed derivation is new here.
 
 ---
 
-# 21. Independence from \mu_{\text{eff}}
+# 21. Independence from **\mu_{\text{eff}}**
 
 The present repository derives that
 
