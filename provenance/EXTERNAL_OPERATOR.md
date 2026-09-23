@@ -141,34 +141,34 @@ The API version function was:
 
 A representative call has the form
 
-\[
+$$
 \mathrm{compute}
 (
 \eta,
 L,
 \mu_{\rm eff}
 ).
-\]
+$$
 
 This is important because the API itself exposes
 
-\[
+$$
 \eta
-\]
+$$
 
 and
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 as separate inputs.
 
 Thus the executable interface does not require the universal identification
 
-\[
+$$
 \mu_{\rm eff}=\eta.
-\]
+$$
 
 ---
 
@@ -176,11 +176,11 @@ Thus the executable interface does not require the universal identification
 
 During the validation run, the reported API version was
 
-\[
+$$
 \boxed{
 1
 }
-\]
+$$
 
 This value should be re-recorded during the frozen release.
 
@@ -215,21 +215,21 @@ This result structure makes it possible to test multiple layers of the GEO archi
 
 The canonical architectural parameters used in the projection audit were
 
-\[
+$$
 \eta=0.6
-\]
+$$
 
 and
 
-\[
+$$
 L=0.
-\]
+$$
 
 A representative effective-state input was
 
-\[
+$$
 \mu_{\rm eff}=0.8104.
-\]
+$$
 
 This value was used only as one test point.
 
@@ -241,67 +241,51 @@ It was not treated as a universal Hubble value or a fitted cosmological paramete
 
 For
 
-\[
+$$
 \eta=0.6,
-\]
+$$
 
-\[
+$$
 L=0,
-\]
+$$
 
 and
 
-\[
+$$
 \mu_{\rm eff}=0.8104,
-\]
+$$
 
 the External Operator returned approximately:
 
-\[
-R
-=
-0.9323231701154233,
-\]
+$$R=0.9323231701154233,
+$$
 
-\[
-\Phi
-=
-1.8968957201959051,
-\]
+$$\Phi=1.8968957201959051,
+$$
 
-\[
-\alpha
-=
-0.5365231307817058,
-\]
+$$
+\alpha=0.5365231307817058,
+$$
 
-\[
-A'_{\rm engine}
-=
-0.7071067811865475,
-\]
+$$
+A'_{\rm engine}=0.7071067811865475,
+$$
 
-\[
-B'_{\rm engine}
-=
--0.1414213562373094.
-\]
+$$
+B'_{\rm engine}=-0.1414213562373094.
+$$
 
 The reconstructed conservative coordinates were
 
-\[
-A_{\rm rec}
-=
-0.5999999999999999,
-\]
+$$
+A_{\rm rec}=0.5999999999999999,
+$$
 
 and
 
-\[
-B_{\rm rec}
-=
-0.39999999999999997.
-\]
+$$
+B_{\rm rec}=0.39999999999999997.
+$$
 
 These values agree with the canonical state to floating-point precision.
 
