@@ -295,9 +295,7 @@ These values agree with the canonical state to floating-point precision.
 
 For the same state, the engine reported
 
-$$
-\texttt{projection\_norm\_error}=1.1102230246251565\times10^{-16}.
-$$
+$$\text{projection\_norm\_error} = 1.1102230246251565 \times 10^{-16}$$
 
 This is consistent with the expected orthogonal norm-preserving behavior of the tangent operator.
 
@@ -391,7 +389,7 @@ $$
 
 The representative results were:
 
-| \(\mu_{\rm eff}\) | \(R\) |
+| $ (\mu_{\text{eff}}) $ | $(R)$ |
 |---:|---:|
 | 0.400000 | 0.736806299728077 |
 | 0.500000 | 0.793700525984100 |
@@ -600,9 +598,7 @@ $$
 
 For
 
-$$
-A=0.6,\qquadB=0.4,
-$$
+$$A = 0.6, \quad B = 0.4$$
 
 $$
 B'_{\rm analytic}=-\frac{0.2}{\sqrt2}.
@@ -1091,9 +1087,7 @@ $$
 \eta\rightarrow\{A,B,f_c\},
 $$
 
-$$
-\mu_{\rm eff}\rightarrowR,
-$$
+$$\mu_{\text{eff}} \rightarrow R$$
 
 and
 
