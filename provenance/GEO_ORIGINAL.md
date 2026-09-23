@@ -102,35 +102,31 @@ These classes should be kept distinct.
 
 The relation
 
-\[
-\boxed{
-A+B=1
-}
-\]
+$$
+\boxed{A+B=1}
+$$
 
 belongs to the canonical conservative architecture.
 
 Provenance class:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 The present repository uses this relation as the normalization condition for the reduced conservative state.
 
 For the canonical realization,
 
-\[
+$$
 A=\eta,
-\]
+$$
 
 and therefore
 
-\[
+$$
 B=1-\eta.
-\]
+$$
 
 This is not introduced for Hubble.
 
@@ -142,27 +138,23 @@ It belongs to the general GEO organization.
 
 The canonical value
 
-\[
-\boxed{
-\eta=\frac35
-}
-\]
+$$
+\boxed{\eta=\frac35}
+$$
 
 belongs to the GEO architectural structure used throughout the framework.
 
 Provenance class:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Numerically,
 
-\[
+$$
 \eta=0.6.
-\]
+$$
 
 The present repository does not estimate \(\eta\) from Hubble data.
 
@@ -174,45 +166,35 @@ It is treated as a frozen architectural quantity.
 
 The relation
 
-\[
-\boxed{
-\eta=f_c^2
-}
-\]
+$$
+\boxed{\eta=f_c^2}
+$$
 
 and therefore
 
-\[
-\boxed{
-f_c=\sqrt{\eta}
-}
-\]
+$$
+\boxed{f_c=\sqrt{\eta}}
+$$
 
 belongs to the GEO efficiency/coupling structure.
 
 Provenance class:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 For the canonical value,
 
-\[
-f_c
-=
-\sqrt{\frac35}.
-\]
+$$
+f_c=\sqrt{\frac35}.
+$$
 
 Numerically,
 
-\[
-f_c
-=
-0.774596669241483\ldots
-\]
+$$
+f_c=0.774596669241483\ldots
+$$
 
 This quantity is not derived from Hubble.
 
@@ -222,45 +204,39 @@ This quantity is not derived from Hubble.
 
 From
 
-\[
+$$
 A+B=1
-\]
+$$
 
 and
 
-\[
+$$
 A=\eta,
-\]
+$$
 
 the complementary coordinate is
 
-\[
-\boxed{
-B=1-\eta.
-}
-\]
+$$
+\boxed{B=1-\eta.}
+$$
 
 For
 
-\[
+$$
 \eta=\frac35,
-\]
+$$
 
 we obtain
 
-\[
-\boxed{
-B=\frac25.
-}
-\]
+$$
+\boxed{B=\frac25.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 The algebraic evaluation is trivial, but the partition structure itself belongs to GEO.
 
@@ -270,41 +246,35 @@ The algebraic evaluation is trivial, but the partition structure itself belongs 
 
 The general radial relation is
 
-\[
-\boxed{
-R^3=\mu_{\rm eff}
-}
-\]
+$$
+\boxed{R^3=\mu_{\rm eff}}
+$$
 
 or equivalently
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}.
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 This is one of the central distinctions preserved in the present repository.
 
 The effective-state variable
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 and the architectural efficiency
 
-\[
+$$
 \eta
-\]
+$$
 
 must not be assumed identical in the general theory.
 
@@ -316,13 +286,9 @@ The radial law maps an effective normalized state into a linear response.
 
 The conceptual structure is
 
-\[
-\boxed{
-\mu_{\rm eff}
-\longrightarrow
-R.
-}
-\]
+$$
+\boxed{\mu_{\rm eff}\longrightarrowR.}
+$$
 
 The present repository interprets the cube-root form as the conversion of a cubic/distributed normalized quantity into a corresponding linear scale.
 
@@ -334,26 +300,26 @@ This interpretation is consistent with the mathematical role assigned to the rad
 
 Some historical GEO-Hubble material contained the expression
 
-\[
+$$
 R=\eta^{1/3}.
-\]
+$$
 
 This is not used as the general radial law in the present repository.
 
 The canonical relation is
 
-\[
+$$
 R=\mu_{\rm eff}^{1/3}.
-\]
+$$
 
 Therefore the historical form is treated as requiring one of two interpretations:
 
 1. a transcription in which \(\eta\) was written where \(\mu_{\rm eff}\) was intended; or
 2. a special realization in which
 
-\[
+$$
 \mu_{\rm eff}:=\eta
-\]
+$$
 
 was imposed.
 
@@ -361,11 +327,11 @@ It must not be treated as a universal identity.
 
 Provenance class:
 
-\[
+$$
 \boxed{
 C
 }
-\]
+$$
 
 ---
 
@@ -373,19 +339,15 @@ C
 
 The correction adopted in this repository is
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}.
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}.}
+$$
 
 The following statement is explicitly rejected as a universal relation:
 
-\[
-\boxed{
-R=\eta^{1/3}.
-}
-\]
+$$
+\boxed{R=\eta^{1/3}.}
+$$
 
 This correction does not modify the GEO architecture.
 
@@ -397,31 +359,23 @@ It restores the distinction already supported by the general formulation and cur
 
 The balanced tangent orientation
 
-\[
-\boxed{
-\theta_0=\frac{\pi}{4}
-}
-\]
+$$
+\boxed{\theta_0=\frac{\pi}{4}}
+$$
 
 belongs to the canonical projection geometry.
 
 Provenance class:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 At this angle,
 
-\[
-\cos\theta_0
-=
-\sin\theta_0
-=
-\frac1{\sqrt2}.
-\]
+$$
+\cos\theta_0=\sin\theta_0=\frac1{\sqrt2}.
+$$
 
 The current External Operator implements this projection structure.
 
@@ -431,32 +385,23 @@ The current External Operator implements this projection structure.
 
 The orthogonal operator
 
-\[
-\boxed{
-Q(\theta)
-=
-\begin{pmatrix}
-\cos\theta & \sin\theta\\
--\sin\theta & \cos\theta
-\end{pmatrix}
-}
-\]
+$$
+\boxed{Q(\theta)=\begin{pmatrix}\cos\theta & \sin\theta\\-\sin\theta & \cos\theta\end{pmatrix}}
+$$
 
 belongs to the GEO projection architecture.
 
 Provenance class:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 The present repository uses the canonical value
 
-\[
+$$
 \theta=\frac{\pi}{4}.
-\]
+$$
 
 ---
 
@@ -464,42 +409,33 @@ The present repository uses the canonical value
 
 Applying
 
-\[
+$$
 Q(\theta)
-\]
+$$
 
 to the conservative state
 
-\[
-\begin{pmatrix}
-A\\
-B
-\end{pmatrix}
-\]
+$$
+\begin{pmatrix}A\\B\end{pmatrix}
+$$
 
 gives
 
-\[
-A'
-=
-A\cos\theta+B\sin\theta
-\]
+$$
+A'=A\cos\theta+B\sin\theta
+$$
 
 and
 
-\[
-B'
-=
--A\sin\theta+B\cos\theta.
-\]
+$$
+B'=-A\sin\theta+B\cos\theta.
+$$
 
 Provenance class:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 These relations follow directly from the matrix definition of the tangent operator.
 
@@ -509,59 +445,45 @@ These relations follow directly from the matrix definition of the tangent operat
 
 The identity
 
-\[
-A'
-=
-\frac1{\sqrt2}
-\]
+$$
+A'=\frac1{\sqrt2}
+$$
 
 for a conservative state at
 
-\[
+$$
 \theta=\frac{\pi}{4}
-\]
+$$
 
 is derived in the present repository from
 
-\[
+$$
 A+B=1.
-\]
+$$
 
 Indeed,
 
-\[
-A'
-=
-A\frac1{\sqrt2}
-+
-B\frac1{\sqrt2}
-\]
+$$
+A'=A\frac1{\sqrt2}+B\frac1{\sqrt2}
+$$
 
 so
 
-\[
-A'
-=
-\frac{A+B}{\sqrt2}
-\]
+$$
+A'=\frac{A+B}{\sqrt2}
+$$
 
 and therefore
 
-\[
-\boxed{
-A'
-=
-\frac1{\sqrt2}.
-}
-\]
+$$
+\boxed{A'=\frac1{\sqrt2}.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-N
-}
-\]
+$$
+\boxed{N}
+$$
 
 The ingredients are inherited from GEO, but the explicit theorem-style derivation is part of this repository.
 
@@ -571,45 +493,33 @@ The ingredients are inherited from GEO, but the explicit theorem-style derivatio
 
 For the canonical state
 
-\[
-A=\frac35,
-\qquad
-B=\frac25,
-\]
+$$
+A=\frac35,\qquadB=\frac25,
+$$
 
 the second projected coordinate is
 
-\[
-B'
-=
-\frac{B-A}{\sqrt2}.
-\]
+$$
+B'=\frac{B-A}{\sqrt2}.
+$$
 
 Therefore
 
-\[
-\boxed{
-B'
-=
--\frac1{5\sqrt2}.
-}
-\]
+$$
+\boxed{B'=-\frac1{5\sqrt2}.}
+$$
 
 Numerically,
 
-\[
-B'
-=
--0.141421356237309\ldots
-\]
+$$
+B'=-0.141421356237309\ldots
+$$
 
 Provenance class:
 
-\[
-\boxed{
-N/E
-}
-\]
+$$
+\boxed{N/E}
+$$
 
 The value is analytically derived here and reproduced by the External Operator.
 
@@ -619,25 +529,23 @@ The value is analytically derived here and reproduced by the External Operator.
 
 The tangent matrix satisfies
 
-\[
+$$
 Q^TQ=I.
-\]
+$$
 
 Therefore
 
-\[
+$$
 Q^{-1}=Q^T.
-\]
+$$
 
 Consequently the projected state can be inverted to recover the original conservative state.
 
 Provenance class:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 The present repository provides the explicit proof and numerical closure test.
 
@@ -647,20 +555,15 @@ The present repository provides the explicit proof and numerical closure test.
 
 Because \(Q\) is orthogonal,
 
-\[
-\|\mathbf v'\|
-=
-\|\mathbf v\|.
-\]
+$$
+\|\mathbf v'\|=\|\mathbf v\|.
+$$
 
 Provenance class:
 
-\[
-\boxed{
-F/E
-}
-\]
-
+$$
+\boxed{F/E}
+$$
 The External Operator reports the corresponding projection-norm error.
 
 The tested value is at approximately floating-point machine precision.
@@ -671,52 +574,39 @@ The tested value is at approximately floating-point machine precision.
 
 The present repository defines
 
-\[
-\boxed{
-P_{\rm GEO}
-=
-\frac{f_c}{A'}.
-}
-\]
+$$
+\boxed{P_{\rm GEO}=\frac{f_c}{A'}.}
+$$
 
 Using
 
-\[
+$$
 f_c=\sqrt{\frac35}
-\]
+$$
 
 and
 
-\[
+$$
 A'=\frac1{\sqrt2},
-\]
+$$
 
 we derive
 
-\[
-P_{\rm GEO}
-=
-\frac{\sqrt{3/5}}
-{1/\sqrt2}.
-\]
+$$
+P_{\rm GEO}=\frac{\sqrt{3/5}}{1/\sqrt2}.
+$$
 
 Therefore
 
-\[
-\boxed{
-P_{\rm GEO}
-=
-\sqrt{\frac65}.
-}
-\]
+$$
+\boxed{P_{\rm GEO}=\sqrt{\frac65}.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-N
-}
-\]
+$$
+\boxed{N}
+$$
 
 This closed-form derivation is the central new mathematical consolidation of the present repository.
 
@@ -726,45 +616,35 @@ This closed-form derivation is the central new mathematical consolidation of the
 
 Historical GEO-Hubble material used a compact projection relation of the form
 
-\[
-H_{\rm GEO}
-=
-H_{\rm base}
-\frac{f_c}{\cos\theta}.
-\]
+$$
+H_{\rm GEO}=H_{\rm base}\frac{f_c}{\cos\theta}.
+$$
 
 At
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
 this becomes
 
-\[
-H_{\rm GEO}
-=
-H_{\rm base}
-\frac{f_c}{1/\sqrt2}.
-\]
+$$
+H_{\rm GEO}=H_{\rm base}\frac{f_c}{1/\sqrt2}.
+$$
 
 The present repository does not merely reuse this formula numerically.
 
 Instead, it reconstructs the denominator from the full tangent transformation:
 
-\[
-A'
-=
-A\cos\theta+B\sin\theta.
-\]
+$$
+A'=A\cos\theta+B\sin\theta.
+$$
 
 Under the conservative condition and canonical angle,
 
-\[
-A'
-=
-\frac1{\sqrt2}.
-\]
+$$
+A'=\frac1{\sqrt2}.
+$$
 
 Thus the historical compact denominator is recovered as a consequence of the conservative tangent geometry.
 
@@ -776,47 +656,41 @@ This is an important distinction.
 
 The theorem
 
-\[
+$$
 A+B=1,
-\]
+$$
 
-\[
+$$
 A=\eta,
-\]
+$$
 
-\[
+$$
 \eta=\frac35,
-\]
+$$
 
-\[
+$$
 f_c=\sqrt{\eta},
-\]
+$$
 
 and
 
-\[
+$$
 Q=Q(\pi/4)
-\]
+$$
 
 imply
 
-\[
-\boxed{
-P_{\rm GEO}
-=
-\sqrt{\frac65}
-}
-\]
+$$
+\boxed{P_{\rm GEO}=\sqrt{\frac65}}
+$$
 
 is formalized in this repository.
 
 Provenance class:
 
-\[
-\boxed{
-N
-}
-\]
+$$
+\boxed{N}
+$$
 
 The theorem is not retrospectively attributed to the original repository in this exact formal form.
 
@@ -830,34 +704,27 @@ Its explicit closed derivation is new here.
 
 The present repository derives that
 
-\[
+$$
 P_{\rm GEO}
-\]
+$$
 
 contains no dependence on
 
-\[
+$$
 \mu_{\rm eff}.
-\]
+$$
 
 Thus
 
-\[
-\boxed{
-\frac{\partial P_{\rm GEO}}
-{\partial\mu_{\rm eff}}
-=
-0.
-}
-\]
+$$
+\boxed{\frac{\partial P_{\rm GEO}}{\partial\mu_{\rm eff}}=0.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-N/E
-}
-\]
+$$
+\boxed{N/E}
+$$
 
 This follows analytically from the dependency graph and is separately reproduced by the External Operator sweep.
 
@@ -867,19 +734,19 @@ This follows analytically from the dependency graph and is separately reproduced
 
 At fixed
 
-\[
+$$
 \eta=0.6,
-\]
+$$
 
 the following values of
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 were tested:
 
-\[
+$$
 0.4,\,
 0.5,\,
 0.6,\,
@@ -888,29 +755,23 @@ were tested:
 0.8104,\,
 0.9,\,
 1.0.
-\]
+$$
 
 The radial response changed as expected.
 
 The projection factor remained
 
-\[
-\boxed{
-P_{\rm GEO}
-=
-1.095445115010332\ldots
-}
-\]
+$$
+\boxed{P_{\rm GEO}=1.095445115010332\ldots}
+$$
 
 for every tested state.
 
 Provenance class:
 
-\[
-\boxed{
-E
-}
-\]
+$$
+\boxed{E}
+$$
 
 This is executable confirmation, not a new mathematical axiom.
 
@@ -920,25 +781,23 @@ This is executable confirmation, not a new mathematical axiom.
 
 The External Operator also computes quantities including
 
-\[
+$$
 \Phi
-\]
+$$
 
 and
 
-\[
+$$
 \alpha.
-\]
+$$
 
 These belong to the broader GEO operator chain.
 
 They are not required to derive
 
-\[
-P_{\rm GEO}
-=
-\sqrt{\frac65}
-\]
+$$
+P_{\rm GEO}=\sqrt{\frac65}
+$$
 
 in the present repository.
 
@@ -954,15 +813,15 @@ It limits only the mathematical dependencies required for the corrected Hubble p
 
 Historical materials used a later expression involving quantities of the form
 
-\[
+$$
 1+\alpha(1-R).
-\]
+$$
 
 The present repository does not assume that this expression is algebraically equivalent to
 
-\[
+$$
 \frac{f_c}{A'}.
-\]
+$$
 
 Any equivalence would require a separate derivation.
 
@@ -974,14 +833,9 @@ Therefore the historical radial-defect construction is outside the proof chain o
 
 The statement
 
-\[
-\boxed{
-\frac{H_{\rm GEO}}
-{H_{\rm base}}
-=
-P_{\rm GEO}
-}
-\]
+$$
+\boxed{\frac{H_{\rm GEO}}{H_{\rm base}}=P_{\rm GEO}}
+$$
 
 is not an internal theorem of the projection algebra alone.
 
@@ -989,22 +843,15 @@ It is the physical GEO-Hubble application hypothesis.
 
 Provenance class:
 
-\[
-\boxed{
-H
-}
-\]
+$$
+\boxed{H}
+$$
 
 The resulting equation is
 
-\[
-\boxed{
-H_{\rm GEO}
-=
-H_{\rm base}
-\sqrt{\frac65}.
-}
-\]
+$$
+\boxed{H_{\rm GEO}=H_{\rm base}\sqrt{\frac65}.}
+$$
 
 ---
 
@@ -1012,39 +859,27 @@ H_{\rm base}
 
 For
 
-\[
-H_{\rm base}
-=
-67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},
-\]
+$$
+H_{\rm base}=67.40\ {\rm km\,s^{-1}\,Mpc^{-1}},
+$$
 
 the application hypothesis gives
 
-\[
-H_{\rm GEO}
-=
-67.40
-\sqrt{\frac65}.
-\]
+$$
+H_{\rm GEO}=67.40\sqrt{\frac65}.
+$$
 
 Therefore
 
-\[
-\boxed{
-H_{\rm GEO}
-=
-73.833000751696
-\ {\rm km\,s^{-1}\,Mpc^{-1}}.
-}
-\]
+$$
+\boxed{H_{\rm GEO}=73.833000751696\ {\rm km\,s^{-1}\,Mpc^{-1}}.}
+$$
 
 Provenance class:
 
-\[
-\boxed{
-N/H
-}
-\]
+$$
+\boxed{N/H}
+$$
 
 This number is a consequence of the derived projection factor plus the independently supplied baseline.
 
@@ -1082,51 +917,43 @@ It is not an original canonical GEO constant.
 
 The following are inherited:
 
-\[
+$$
 A+B=1,
-\]
+$$
 
-\[
+$$
 \eta=\frac35,
-\]
+$$
 
-\[
+$$
 \eta=f_c^2,
-\]
+$$
 
-\[
+$$
 R=\mu_{\rm eff}^{1/3},
-\]
+$$
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
 and the tangent projection structure.
 
 The following are explicitly consolidated in this repository:
 
-\[
-A'
-=
-\frac{A+B}{\sqrt2}
-=
-\frac1{\sqrt2},
-\]
+$$
+A'=\frac{A+B}{\sqrt2}=\frac1{\sqrt2},
+$$
 
-\[
-P_{\rm GEO}
-=
-\frac{f_c}{A'},
-\]
+$$
+P_{\rm GEO}=\frac{f_c}{A'},
+$$
 
 and therefore
 
-\[
-P_{\rm GEO}
-=
-\sqrt{\frac65}.
-\]
+$$
+P_{\rm GEO}=\sqrt{\frac65}.
+$$
 
 The Hubble interpretation is then stated separately.
 
@@ -1150,11 +977,9 @@ When describing the executable implementation, cite the GEO External Operator.
 
 When describing the theorem
 
-\[
-P_{\rm GEO}
-=
-\sqrt{\frac65},
-\]
+$$
+P_{\rm GEO}=\sqrt{\frac65},
+$$
 
 cite the present repository once it has an archival release.
 
@@ -1216,47 +1041,39 @@ The corrected GEO-Hubble projection presented here is not constructed from an is
 
 It is assembled from already existing GEO structures:
 
-\[
+$$
 A+B=1,
-\]
+$$
 
-\[
+$$
 \eta=\frac35,
-\]
+$$
 
-\[
+$$
 \eta=f_c^2,
-\]
+$$
 
-\[
+$$
 R=\mu_{\rm eff}^{1/3},
-\]
+$$
 
 and
 
-\[
+$$
 Q(\pi/4).
-\]
+$$
 
 The new contribution of this repository is the explicit separation of these layers and the formal derivation
 
-\[
-\boxed{
-A'=\frac1{\sqrt2}
-}
-\]
+$$
+\boxed{A'=\frac1{\sqrt2}}
+$$
 
 followed by
 
-\[
-\boxed{
-P_{\rm GEO}
-=
-\frac{f_c}{A'}
-=
-\sqrt{\frac65}.
-}
-\]
+$$
+\boxed{P_{\rm GEO}=\frac{f_c}{A'}=\sqrt{\frac65}.}
+$$
 
 The Hubble mapping is then stated separately as a testable physical hypothesis.
 
