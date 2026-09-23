@@ -287,7 +287,7 @@ The radial law maps an effective normalized state into a linear response.
 The conceptual structure is
 
 $$
-\boxed{\mu_{\rm eff}\longrightarrowR.}
+\boxed{\mu_{\rm eff}\longrightarrow R.}
 $$
 
 The present repository interprets the cube-root form as the conversion of a cubic/distributed normalized quantity into a corresponding linear scale.
@@ -386,7 +386,7 @@ The current External Operator implements this projection structure.
 The orthogonal operator
 
 $$
-\boxed{Q(\theta)=\begin{pmatrix}\cos\theta & \sin\theta\\-\sin\theta & \cos\theta\end{pmatrix}}
+Q(\theta) = \begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
 $$
 
 belongs to the GEO projection architecture.
@@ -416,7 +416,7 @@ $$
 to the conservative state
 
 $$
-\begin{pmatrix}A\\B\end{pmatrix}
+(A, B)
 $$
 
 gives
@@ -494,7 +494,7 @@ The ingredients are inherited from GEO, but the explicit theorem-style derivatio
 For the canonical state
 
 $$
-A=\frac35,\qquadB=\frac25,
+A = \frac{3}{5}, \quad B = \frac{2}{5}
 $$
 
 the second projected coordinate is
@@ -700,7 +700,7 @@ Its explicit closed derivation is new here.
 
 ---
 
-# 21. Independence from \(\mu_{\rm eff}\)
+# 21. Independence from \mu_{\text{eff}}
 
 The present repository derives that
 
