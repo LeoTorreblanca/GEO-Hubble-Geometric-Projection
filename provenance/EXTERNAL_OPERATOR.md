@@ -48,23 +48,31 @@ Repository:
 
 `GEO-External-Operator`
 
-Commit:
+Repository URL:
 
-`TO_BE_RECORDED`
+https://github.com/LeoTorreblanca/GEO-External-Operator
+
+Reference commit:
+
+`003402ef5edff2fe6efa020c368de8064e711732`
 
 Branch:
 
-`TO_BE_RECORDED`
+`main`
 
-Retrieval date:
+API version:
 
-`TO_BE_RECORDED`
+`1`
 
-Working-tree status:
+Validation date:
 
-`TO_BE_RECORDED`
+`2026-09-14`
 
-The release process must replace all placeholders with actual Git metadata.
+This is the frozen External Operator revision used by the present
+GEO-Hubble Geometric Projection validation.
+
+The reference commit is the same revision identified in the main
+repository README and used for the reproducibility audit.
 
 ---
 
