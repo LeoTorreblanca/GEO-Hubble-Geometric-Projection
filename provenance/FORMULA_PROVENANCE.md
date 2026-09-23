@@ -79,19 +79,15 @@ These categories are distinct from provenance.
 
 Formula:
 
-\[
-\boxed{
-A+B=1
-}
-\]
+$$
+\boxed{A+B=1}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Logical status:
 
@@ -121,13 +117,9 @@ Important consequence:
 
 At the canonical tangent angle,
 
-\[
-A'
-=
-\frac{A+B}{\sqrt2}
-=
-\frac1{\sqrt2}.
-\]
+$$
+A'=\frac{A+B}{\sqrt2}=\frac1{\sqrt2}.
+$$
 
 ---
 
@@ -135,19 +127,15 @@ A'
 
 Formula:
 
-\[
-\boxed{
-A=\eta
-}
-\]
+$$
+\boxed{A=\eta}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Logical status:
 
@@ -155,9 +143,9 @@ Canonical architectural identification.
 
 Dependencies:
 
-\[
+$$
 \eta.
-\]
+$$
 
 Used directly in Hubble derivation:
 
@@ -173,19 +161,15 @@ The active coordinate of the reduced canonical state is identified with the arch
 
 Formula:
 
-\[
-\boxed{
-B=1-\eta
-}
-\]
+$$
+\boxed{B=1-\eta}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Logical status:
 
@@ -193,15 +177,15 @@ Algebraic consequence.
 
 Derived from:
 
-\[
+$$
 A+B=1
-\]
+$$
 
 and
 
-\[
+$$
 A=\eta.
-\]
+$$
 
 Used directly in Hubble derivation:
 
@@ -209,13 +193,9 @@ YES.
 
 For the canonical state:
 
-\[
-B
-=
-1-\frac35
-=
-\frac25.
-\]
+$$
+B=1-\frac35=\frac25.
+$$
 
 ---
 
@@ -223,27 +203,21 @@ B
 
 Formula:
 
-\[
-\boxed{
-\eta=\frac35
-}
-\]
+$$
+\boxed{\eta=\frac35}
+$$
 
 Numerically:
 
-\[
-\boxed{
-\eta=0.6
-}
-\]
+$$
+\boxed{\eta=0.6}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Logical status:
 
@@ -267,19 +241,15 @@ NO.
 
 Formula:
 
-\[
-\boxed{
-\eta=f_c^2
-}
-\]
+$$
+\boxed{\eta=f_c^2}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
+$$
+\boxed{O/F}
+$$
 
 Logical status:
 
@@ -287,9 +257,9 @@ Structural law.
 
 Dependencies:
 
-\[
+$$
 f_c.
-\]
+$$
 
 Used directly in Hubble derivation:
 
@@ -297,11 +267,9 @@ YES.
 
 Inverse form:
 
-\[
-\boxed{
-f_c=\sqrt{\eta}.
-}
-\]
+$$
+\boxed{f_c=\sqrt{\eta}.}
+$$
 
 Positive branch used:
 
@@ -317,30 +285,21 @@ Reason:
 
 Formula:
 
-\[
-\boxed{
-f_c=\sqrt{\frac35}
-}
-\]
+$$
+\boxed{f_c=\sqrt{\frac35}}
+$$
 
 Numerically:
 
-\[
-\boxed{
-f_c
-=
-0.774596669241483\ldots
-}
-\]
+$$
+\boxed{f_c=0.774596669241483\ldots}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F
-}
-\]
-
+$$
+\boxed{O/F}
+$$
 Logical status:
 
 Algebraic consequence of the quadratic efficiency law.
@@ -359,19 +318,15 @@ Indirectly yes, through the same canonical input \(\eta\).
 
 Symbol:
 
-\[
-\boxed{
-\mu_{\rm eff}
-}
-\]
+$$
+\boxed{\mu_{\rm eff}}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 Logical status:
 
@@ -395,27 +350,21 @@ YES.
 
 Formula:
 
-\[
-\boxed{
-R^3=\mu_{\rm eff}
-}
-\]
+$$
+\boxed{R^3=\mu_{\rm eff}}
+$$
 
 Equivalent form:
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}.
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 Logical status:
 
@@ -423,9 +372,9 @@ Structural law.
 
 Dependencies:
 
-\[
+$$
 \mu_{\rm eff}.
-\]
+$$
 
 Used directly in corrected projection proposition:
 
@@ -449,19 +398,15 @@ Approximately machine precision.
 
 Formula:
 
-\[
-\boxed{
-\mu_{\rm eff}=R^3.
-}
-\]
+$$
+\boxed{\mu_{\rm eff}=R^3.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 Logical status:
 
@@ -481,17 +426,15 @@ YES.
 
 Formula:
 
-\[
+$$
 R=\eta^{1/3}.
-\]
+$$
 
 Provenance:
 
-\[
-\boxed{
-C
-}
-\]
+$$
+\boxed{C}
+$$
 
 Logical status:
 
@@ -503,9 +446,9 @@ NO.
 
 Equivalent only if:
 
-\[
+$$
 \mu_{\rm eff}:=\eta.
-\]
+$$
 
 Used in present derivation:
 
@@ -521,19 +464,15 @@ YES, if explicitly labelled.
 
 Formula:
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}.
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-C/O/F/E
-}
-\]
+$$
+\boxed{C/O/F/E}
+$$
 
 Logical status:
 
@@ -545,9 +484,9 @@ YES.
 
 Any script using:
 
-\[
+$$
 R=\eta^{1/3}
-\]
+$$
 
 without explicitly declaring a historical special case:
 
@@ -559,25 +498,21 @@ INVALID.
 
 Formula:
 
-\[
-\boxed{
-\theta_0=\frac{\pi}{4}.
-}
-\]
+$$
+\boxed{\theta_0=\frac{\pi}{4}.}
+$$
 
 Equivalent:
 
-\[
+$$
 \theta_0=45^\circ.
-\]
+$$
 
 Provenance:
 
-\[
-\boxed{
-O/F/E
-}
-\]
+$$
+\boxed{O/F/E}
+$$
 
 Logical status:
 
@@ -597,13 +532,9 @@ NO.
 
 Formula:
 
-\[
-\cos\frac{\pi}{4}
-=
-\sin\frac{\pi}{4}
-=
-\frac1{\sqrt2}.
-\]
+$$
+\cos\frac{\pi}{4}=\sin\frac{\pi}{4}=\frac1{\sqrt2}.
+$$
 
 Provenance:
 
@@ -619,11 +550,9 @@ YES.
 
 Numerically:
 
-\[
-\frac1{\sqrt2}
-=
-0.7071067811865475\ldots
-\]
+$$
+\frac1{\sqrt2}=0.7071067811865475\ldots
+$$
 
 ---
 
@@ -631,24 +560,15 @@ Numerically:
 
 Formula:
 
-\[
-\boxed{
-Q(\theta)
-=
-\begin{pmatrix}
-\cos\theta & \sin\theta\\
--\sin\theta & \cos\theta
-\end{pmatrix}.
-}
-\]
+$$
+\boxed{Q(\theta)=\begin{pmatrix}\cos\theta & \sin\theta\\-\sin\theta & \cos\theta\end{pmatrix}.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 Logical status:
 
@@ -668,11 +588,9 @@ YES.
 
 Formula:
 
-\[
-\boxed{
-Q^TQ=I.
-}
-\]
+$$
+\boxed{Q^TQ=I.}
+$$
 
 Provenance:
 
@@ -692,9 +610,9 @@ YES.
 
 Consequence:
 
-\[
+$$
 Q^{-1}=Q^T.
-\]
+$$
 
 ---
 
@@ -702,13 +620,9 @@ Q^{-1}=Q^T.
 
 Formula:
 
-\[
-\boxed{
-\|Q\mathbf v\|
-=
-\|\mathbf v\|.
-}
-\]
+$$
+\boxed{\|Q\mathbf v\|=\|\mathbf v\|.}
+$$
 
 Provenance:
 
@@ -726,9 +640,9 @@ Observed projection norm error:
 
 Approximately
 
-\[
+$$
 10^{-16}.
-\]
+$$
 
 ---
 
@@ -736,37 +650,21 @@ Approximately
 
 Formula:
 
-\[
-\boxed{
-\mathbf v
-=
-\begin{pmatrix}
-A\\
-B
-\end{pmatrix}.
-}
-\]
+$$
+\boxed{\mathbf v=\begin{pmatrix}A\\B\end{pmatrix}.}
+$$
 
 Canonical value:
 
-\[
-\boxed{
-\mathbf v
-=
-\begin{pmatrix}
-3/5\\
-2/5
-\end{pmatrix}.
-}
-\]
+$$
+\boxed{\mathbf v=\begin{pmatrix}3/5\\2/5\end{pmatrix}.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-F/N
-}
-\]
+$$
+\boxed{F/N}
+$$
 
 Logical status:
 
@@ -782,21 +680,15 @@ YES.
 
 Formula:
 
-\[
-\boxed{
-\mathbf v'
-=
-Q(\theta)\mathbf v.
-}
-\]
+$$
+\boxed{\mathbf v'=Q(\theta)\mathbf v.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 Logical status:
 
@@ -804,23 +696,15 @@ Projection definition.
 
 Expanded form:
 
-\[
-\boxed{
-A'
-=
-A\cos\theta+B\sin\theta
-}
-\]
+$$
+\boxed{A'=A\cos\theta+B\sin\theta}
+$$
 
 and
 
-\[
-\boxed{
-B'
-=
--A\sin\theta+B\cos\theta.
-}
-\]
+$$
+\boxed{B'=-A\sin\theta+B\cos\theta.}
+$$
 
 ---
 
@@ -828,21 +712,15 @@ B'
 
 Formula:
 
-\[
-\boxed{
-A'
-=
-A\cos\theta+B\sin\theta.
-}
-\]
+$$
+\boxed{A'=A\cos\theta+B\sin\theta.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 Logical status:
 
@@ -858,21 +736,15 @@ YES.
 
 Formula:
 
-\[
-\boxed{
-B'
-=
--A\sin\theta+B\cos\theta.
-}
-\]
+$$
+\boxed{B'=-A\sin\theta+B\cos\theta.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-F/E
-}
-\]
+$$
+\boxed{F/E}
+$$
 
 Logical status:
 
@@ -888,51 +760,39 @@ Not in final ratio, but used for full projection closure.
 
 At
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
 the first coordinate is
 
-\[
-A'
-=
-A\frac1{\sqrt2}
-+
-B\frac1{\sqrt2}.
-\]
+$$
+A'=A\frac1{\sqrt2}+B\frac1{\sqrt2}.
+$$
 
 Therefore
 
-\[
-A'
-=
-\frac{A+B}{\sqrt2}.
-\]
+$$
+A'=\frac{A+B}{\sqrt2}.
+$$
 
 Using conservation,
 
-\[
+$$
 A+B=1,
-\]
+$$
 
 we obtain
 
-\[
-\boxed{
-A'
-=
-\frac1{\sqrt2}.
-}
-\]
+$$
+\boxed{A'=\frac1{\sqrt2}.}
+$$
 
 Provenance:
 
-\[
-\boxed{
-N/E
-}
-\]
+$$
+\boxed{N/E}
+$$
 
 Logical status:
 
@@ -952,59 +812,43 @@ YES.
 
 At
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
-\[
-B'
-=
-\frac{B-A}{\sqrt2}.
-\]
+$$
+B'=\frac{B-A}{\sqrt2}.
+$$
 
 For
 
-\[
-A=\frac35,
-\qquad
-B=\frac25,
-\]
+$$
+A=\frac35,\qquadB=\frac25,
+$$
 
 we obtain
 
-\[
-B-A
-=
--\frac15.
-\]
+$$
+B-A=-\frac15.
+$$
 
 Therefore
 
-\[
-\boxed{
-B'
-=
--\frac1{5\sqrt2}.
-}
-\]
+$$
+\boxed{B'=-\frac1{5\sqrt2}.}
+$$
 
 Numerically:
 
-\[
-\boxed{
-B'
-=
--0.141421356237309\ldots
-}
-\]
+$$
+\boxed{B'=-0.141421356237309\ldots}
+$$
 
 Provenance:
 
-\[
-\boxed{
-N/E
-}
-\]
+$$
+\boxed{N/E}
+$$
 
 Logical status:
 
@@ -1020,27 +864,21 @@ YES.
 
 External Operator output:
 
-\[
-A'_{\rm engine}
-=
-0.7071067811865475.
-\]
+$$
+A'_{\rm engine}=0.7071067811865475.
+$$
 
 External Operator output:
 
-\[
-B'_{\rm engine}
-=
--0.1414213562373094.
-\]
+$$
+B'_{\rm engine}=-0.1414213562373094.
+$$
 
 Provenance:
 
-\[
-\boxed{
-E
-}
-\]
+$$
+\boxed{E}
+$$
 
 Logical status:
 
