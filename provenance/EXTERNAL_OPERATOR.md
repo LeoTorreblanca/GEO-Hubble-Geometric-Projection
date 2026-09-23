@@ -295,11 +295,9 @@ These values agree with the canonical state to floating-point precision.
 
 For the same state, the engine reported
 
-\[
-\texttt{projection\_norm\_error}
-=
-1.1102230246251565\times10^{-16}.
-\]
+$$
+\texttt{projection\_norm\_error}=1.1102230246251565\times10^{-16}.
+$$
 
 This is consistent with the expected orthogonal norm-preserving behavior of the tangent operator.
 
@@ -313,15 +311,15 @@ It is not empirical cosmological evidence.
 
 The engine reported reconstruction errors of approximately
 
-\[
+$$
 1.11\times10^{-16}
-\]
+$$
 
 for the observable coordinate and approximately
 
-\[
+$$
 5.55\times10^{-17}
-\]
+$$
 
 for the complementary coordinate.
 
@@ -335,59 +333,57 @@ This confirms that the executable projection is numerically invertible within fl
 
 The External Operator was tested with
 
-\[
+$$
 \eta=0.6
-\]
+$$
 
 held fixed while
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 was varied.
 
 The tested values were:
 
-\[
+$$
 0.4,
-\]
+$$
 
-\[
+$$
 0.5,
-\]
+$$
 
-\[
+$$
 0.6,
-\]
+$$
 
-\[
+$$
 0.7,
-\]
+$$
 
-\[
+$$
 0.8,
-\]
+$$
 
-\[
+$$
 0.8104,
-\]
+$$
 
-\[
+$$
 0.9,
-\]
+$$
 
-\[
+$$
 1.0.
-\]
+$$
 
 For every tested state, the returned radial value agreed with
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}.
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}.}
+$$
 
 ---
 
@@ -408,81 +404,75 @@ The representative results were:
 
 The corresponding closure residuals
 
-\[
+$$
 R^3-\mu_{\rm eff}
-\]
+$$
 
 were zero or of order
 
-\[
+$$
 10^{-16}.
-\]
-
+$$
 ---
 
 # 14. Direct evidence of \(\mu_{\rm eff}\) / \(\eta\) independence
 
 Compare two runs with
 
-\[
+$$
 \eta=0.6
-\]
+$$
 
 fixed.
 
 For
 
-\[
+$$
 \mu_{\rm eff}=0.6,
-\]
+$$
 
 the engine returned
 
-\[
-R_1
-=
-0.843432665301749.
-\]
+$$
+R_1=0.843432665301749.
+$$
 
 For
 
-\[
+$$
 \mu_{\rm eff}=0.8104,
-\]
+$$
 
 the engine returned
 
-\[
-R_2
-=
-0.932323170115423.
-\]
+$$R_2=0.932323170115423.
+$$
 
 Thus
 
-\[
+$$
 R_1\neq R_2
-\]
+$$
 
 while
 
-\[
+$$
 \eta
-\]
+$$
 
 remained unchanged.
 
 This provides direct executable evidence that
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 and
 
-\[
+$$
 \eta
-\]
+$$
 
 are distinct inputs in the core implementation.
 
@@ -502,11 +492,9 @@ The suite included explicit tests for:
 
 The observed native test result was:
 
-\[
-\boxed{
-5\ \text{passed}
-}
-\]
+$$
+\boxed{5\ \text{passed}}
+$$
 
 with one optional test skipped.
 
@@ -518,21 +506,15 @@ The exact pytest output should be archived in the frozen release under the resul
 
 During the radial sweep, the engine returned the same projected observable for every tested effective state:
 
-\[
-\boxed{
-A'_{\rm engine}
-=
-0.707106781186547\ldots
-}
-\]
+$$
+\boxed{A'_{\rm engine}=0.707106781186547\ldots}
+$$
 
 The measured span was
 
-\[
-\boxed{
-\Delta A'=0
-}
-\]
+$$
+\boxed{\Delta A'=0}
+$$
 
 at the displayed numerical precision.
 
@@ -544,67 +526,53 @@ Thus, within the tested implementation, the canonical tangent projection is inde
 
 Using
 
-\[
+$$
 A=\eta=0.6,
-\]
+$$
 
-\[
+$$
 B=1-\eta=0.4,
-\]
+$$
 
 and
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
 the analytic tangent projection gives
 
-\[
-A'_{\rm analytic}
-=
-A\cos\theta+B\sin\theta.
-\]
+$$
+A'_{\rm analytic}=A\cos\theta+B\sin\theta.
+$$
 
 Since
 
-\[
-\cos\theta
-=
-\sin\theta
-=
-\frac1{\sqrt2},
-\]
+$$
+\cos\theta=\sin\theta=\frac1{\sqrt2},
+$$
 
 we obtain
 
-\[
-A'_{\rm analytic}
-=
-\frac{A+B}{\sqrt2}.
-\]
+$$
+A'_{\rm analytic}=\frac{A+B}{\sqrt2}.
+$$
 
 Because
 
-\[
+$$
 A+B=1,
-\]
+$$
 
-\[
-\boxed{
-A'_{\rm analytic}
-=
-\frac1{\sqrt2}.
-}
-\]
+$$
+\boxed{A'_{\rm analytic}=\frac1{\sqrt2}.}
+$$
 
 Numerically,
 
-\[
-A'_{\rm analytic}
-=
-0.707106781186547\ldots
-\]
+$$
+A'_{\rm analytic}=0.707106781186547\ldots
+$$
 
 which matches the engine output exactly at the displayed precision.
 
@@ -614,49 +582,36 @@ which matches the engine output exactly at the displayed precision.
 
 The second analytic coordinate is
 
-\[
-B'_{\rm analytic}
-=
--A\sin\theta+B\cos\theta.
-\]
+$$
+B'_{\rm analytic}=-A\sin\theta+B\cos\theta.
+$$
 
 At
 
-\[
+$$
 \theta=\frac{\pi}{4},
-\]
+$$
 
 this becomes
 
-\[
-B'_{\rm analytic}
-=
-\frac{B-A}{\sqrt2}.
-\]
+$$
+B'_{\rm analytic}=\frac{B-A}{\sqrt2}.
+$$
 
 For
 
-\[
-A=0.6,
-\qquad
-B=0.4,
-\]
+$$
+A=0.6,\qquadB=0.4,
+$$
 
-\[
-B'_{\rm analytic}
-=
--\frac{0.2}{\sqrt2}.
-\]
+$$
+B'_{\rm analytic}=-\frac{0.2}{\sqrt2}.
+$$
 
 Numerically,
 
-\[
-\boxed{
-B'_{\rm analytic}
-=
--0.141421356237309\ldots
-}
-\]
+$$\boxed{B'_{\rm analytic}=-0.141421356237309\ldots}
+$$
 
 matching the engine output at the displayed precision.
 
@@ -666,23 +621,15 @@ matching the engine output at the displayed precision.
 
 The measured differences were
 
-\[
-\boxed{
-|A'_{\rm analytic}-A'_{\rm engine}|
-=
-0
-}
-\]
+$$
+\boxed{|A'_{\rm analytic}-A'_{\rm engine}|=0}
+$$
 
 and
 
-\[
-\boxed{
-|B'_{\rm analytic}-B'_{\rm engine}|
-=
-0
-}
-\]
+$$
+\boxed{|B'_{\rm analytic}-B'_{\rm engine}|=0}
+$$
 
 at the displayed precision.
 
@@ -694,33 +641,27 @@ This provides direct analytic-to-engine closure of the projection layer.
 
 The canonical coupling amplitude was reconstructed independently as
 
-\[
-f_c
-=
-\sqrt{\eta}.
-\]
+$$
+f_c=\sqrt{\eta}.
+$$
 
 For
 
-\[
+$$
 \eta=0.6,
-\]
+$$
 
 the value is
 
-\[
-\boxed{
-f_c
-=
-0.774596669241483.
-}
-\]
+$$
+\boxed{f_c=0.774596669241483.}
+$$
 
 This quantity is derived from the architectural efficiency and does not depend on
 
-\[
+$$
 \mu_{\rm eff}.
-\]
+$$
 
 ---
 
@@ -728,36 +669,21 @@ This quantity is derived from the architectural efficiency and does not depend o
 
 The projection factor was reconstructed as
 
-\[
-\boxed{
-P_{\rm engine}
-=
-\frac{f_c}
-{A'_{\rm engine}}.
-}
-\]
+$$
+\boxed{P_{\rm engine}=\frac{f_c}{A'_{\rm engine}}.}
+$$
 
 Using the engine output,
 
-\[
-P_{\rm engine}
-=
-\frac{
-0.774596669241483
-}{
-0.707106781186547
-}.
-\]
+$$
+P_{\rm engine}=\frac{0.774596669241483}{0.707106781186547}.
+$$
 
 The result was
 
-\[
-\boxed{
-P_{\rm engine}
-=
-1.095445115010332.
-}
-\]
+$$
+\boxed{P_{\rm engine}=1.095445115010332.}
+$$
 
 This value was not assigned directly.
 
@@ -769,29 +695,21 @@ It was reconstructed from the canonical coupling and the engine projection outpu
 
 The independent analytic form is
 
-\[
-P_{\rm analytic}
-=
-\sqrt{\frac65}.
-\]
+$$
+P_{\rm analytic}=\sqrt{\frac65}.
+$$
 
 Numerically,
 
-\[
-P_{\rm analytic}
-=
-1.095445115010332.
-\]
+$$
+P_{\rm analytic}=1.095445115010332.
+$$
 
 The measured difference was approximately
 
-\[
-\boxed{
-|P_{\rm engine}-P_{\rm analytic}|
-=
-2.22\times10^{-16}.
-}
-\]
+$$
+\boxed{|P_{\rm engine}-P_{\rm analytic}|=2.22\times10^{-16}.}
+$$
 
 This is consistent with floating-point machine precision.
 
@@ -801,25 +719,21 @@ This is consistent with floating-point machine precision.
 
 For every tested value of
 
-\[
+$$
 \mu_{\rm eff},
-\]
+$$
 
 the reconstructed factor was
 
-\[
-P_{\rm engine}
-=
-1.095445115010332.
-\]
+$$
+P_{\rm engine}=1.095445115010332.
+$$
 
 The reported span was
 
-\[
-\boxed{
-\Delta P_{\rm engine}=0
-}
-\]
+$$
+\boxed{\Delta P_{\rm engine}=0}
+$$
 
 at the displayed precision.
 
@@ -831,29 +745,23 @@ This executable result confirms the analytic independence of the canonical proje
 
 After the projection factor had been reconstructed, a reference baseline value
 
-\[
+$$
 H_{\rm base}=67.4
-\]
+$$
 
 was supplied.
 
 The predicted projected value was calculated as
 
-\[
-H_{\rm pred}
-=
-H_{\rm base}P_{\rm engine}.
-\]
+$$
+H_{\rm pred}=H_{\rm base}P_{\rm engine}.
+$$
 
 The engine-derived factor gave
 
-\[
-\boxed{
-H_{\rm pred}
-=
-73.833000751696.
-}
-\]
+$$
+\boxed{H_{\rm pred}=73.833000751696.}
+$$
 
 No local-Hubble target was used to obtain the factor.
 
@@ -863,19 +771,15 @@ No local-Hubble target was used to obtain the factor.
 
 The External Operator proves neither
 
-\[
-H_{\rm local}
-=
-73.833000751696
-\]
+$$
+H_{\rm local}=73.833000751696
+$$
 
 nor
 
-\[
-\frac{H_{\rm local}}{H_{\rm base}}
-=
-P_{\rm GEO}
-\]
+$$
+\frac{H_{\rm local}}{H_{\rm base}}=P_{\rm GEO}
+$$
 
 as an empirical fact.
 
@@ -889,45 +793,29 @@ The identification of that factor with a Hubble-scale ratio remains a physical a
 
 Within the tested implementation, the External Operator confirms:
 
-\[
-\boxed{
-\eta
-\text{ and }
-\mu_{\rm eff}
-\text{ are independent inputs}
-}
-\]
+$$
+\boxed{\eta\text{ and }\mu_{\rm eff}\text{ are independent inputs}}
+$$
 
-\[
-\boxed{
-R=\mu_{\rm eff}^{1/3}
-}
-\]
+$$
+\boxed{R=\mu_{\rm eff}^{1/3}}
+$$
 
-\[
-\boxed{
-Q(\pi/4)
-\text{ produces the canonical tangent projection}
-}
-\]
+$$
+\boxed{Q(\pi/4)\text{ produces the canonical tangent projection}}
+$$
 
-\[
-\boxed{
-A'=\frac1{\sqrt2}
-}
-\]
+$$
+\boxed{A'=\frac1{\sqrt2}}
+$$
 
 for the conservative canonical state,
 
 and
 
-\[
-\boxed{
-\frac{f_c}{A'}
-=
-\sqrt{\frac65}
-}
-\]
+$$
+\boxed{\frac{f_c}{A'}=\sqrt{\frac65}}
+$$
 
 to floating-point precision.
 
@@ -952,9 +840,9 @@ These remain scientific interpretation questions.
 
 The External Operator repository contains an older Hubble/Cobaya compatibility path that uses a reduction of the form
 
-\[
+$$
 \mu_H:=\eta.
-\]
+$$
 
 This path should be understood as preserving an earlier realization.
 
@@ -962,15 +850,15 @@ It is not used in the corrected canonical projection proof contained in the pres
 
 The core engine itself accepts
 
-\[
+$$
 \eta
-\]
+$$
 
 and
 
-\[
+$$
 \mu_{\rm eff}
-\]
+$$
 
 independently.
 
@@ -982,31 +870,31 @@ The corrected proof is intended to determine whether the canonical projection fa
 
 Therefore it must not begin by imposing
 
-\[
+$$
 \mu_H=\eta.
-\]
+$$
 
 Instead, the proof uses only:
 
-\[
+$$
 A+B=1,
-\]
+$$
 
-\[
+$$
 \eta=f_c^2,
-\]
+$$
 
 and
 
-\[
+$$
 Q(\pi/4).
-\]
+$$
 
 The radial branch remains independently validated through
 
-\[
+$$
 R=\mu_{\rm eff}^{1/3}.
-\]
+$$
 
 ---
 
@@ -1014,53 +902,53 @@ R=\mu_{\rm eff}^{1/3}.
 
 The External Operator returns spectral quantities
 
-\[
+$$
 \Phi
-\]
+$$
 
 and
 
-\[
+$$
 \alpha.
-\]
+$$
 
 During the effective-state sweep, these quantities changed with
 
-\[
+$$
 \mu_{\rm eff}.
-\]
+$$
 
 For example, \(\Phi\) increased from approximately
 
-\[
+$$
 1.881156654418159
-\]
+$$
 
 at
 
-\[
+$$
 \mu_{\rm eff}=0.4
-\]
+$$
 
 to approximately
 
-\[
+$$
 1.902585570253989
-\]
+$$
 
 at
 
-\[
+$$
 \mu_{\rm eff}=1.
-\]
+$$
 
 Similarly, \(\alpha\) changed across the sweep.
 
 However,
 
-\[
+$$
 P_{\rm GEO}
-\]
+$$
 
 remained fixed.
 
@@ -1072,15 +960,15 @@ Therefore \(\Phi\) and \(\alpha\) are not required to derive the canonical proje
 
 The fact that
 
-\[
+$$
 \Phi
-\]
+$$
 
 and
 
-\[
+$$
 \alpha
-\]
+$$
 
 are not required in the present proof does not mean they are mathematically irrelevant to the broader GEO framework.
 
@@ -1096,9 +984,9 @@ The validation was performed using standard floating-point arithmetic.
 
 Differences at the level of
 
-\[
+$$
 10^{-16}
-\]
+$$
 
 should be interpreted as numerical agreement to approximately machine precision.
 
@@ -1181,19 +1069,15 @@ A concise executable-provenance statement may be written as follows:
 
 For this repository, the GEO External Operator is used as:
 
-\[
-\boxed{
-\text{an executable implementation of the GEO mathematical architecture}
-}
-\]
+$$
+\boxed{\text{an executable implementation of the GEO mathematical architecture}}
+$$
 
 and not as:
 
-\[
-\boxed{
-\text{independent observational evidence for the physical GEO-Hubble hypothesis}.
-}
-\]
+$$
+\boxed{\text{independent observational evidence for the physical GEO-Hubble hypothesis}.}
+$$
 
 This distinction is binding.
 
@@ -1203,53 +1087,37 @@ This distinction is binding.
 
 The External Operator validation establishes that the executable GEO architecture is consistent with the corrected mathematical dependency chain
 
-\[
-\eta
-\rightarrow
-\{A,B,f_c\},
-\]
+$$
+\eta\rightarrow\{A,B,f_c\},
+$$
 
-\[
-\mu_{\rm eff}
-\rightarrow
-R,
-\]
+$$
+\mu_{\rm eff}\rightarrowR,
+$$
 
 and
 
-\[
-(A,B,\pi/4)
-\rightarrow
-(A',B').
-\]
+$$
+(A,B,\pi/4)\rightarrow(A',B').
+$$
 
 For the canonical state,
 
-\[
-A'
-=
-\frac1{\sqrt2}
-\]
+$$
+A'=\frac1{\sqrt2}
+$$
 
 and
 
-\[
-f_c
-=
-\sqrt{\frac35}.
-\]
+$$
+f_c=\sqrt{\frac35}.
+$$
 
 Therefore the independently reconstructed executable ratio is
 
-\[
-\boxed{
-P_{\rm engine}
-=
-\frac{f_c}{A'}
-=
-\sqrt{\frac65}
-}
-\]
+$$
+\boxed{P_{\rm engine}=\frac{f_c}{A'}=\sqrt{\frac65}}
+$$
 
 to approximately machine precision.
 
