@@ -38,25 +38,31 @@ Repository role:
 
 The exact commit used for a frozen release of this repository must be recorded below.
 
-## Frozen revision
+## Upstream reference
 
 Repository:
 
 `GEO-hidden-geometry-framework`
 
-Commit:
+Repository URL:
 
-`TO_BE_RECORDED`
+https://github.com/LeoTorreblanca/GEO-hidden-geometry-framework
 
 Branch:
 
-`TO_BE_RECORDED`
+`main`
 
-Date retrieved:
+Role:
 
-`TO_BE_RECORDED`
+Historical and mathematical provenance of the GEO architecture used in
+the present derivation.
 
-The release process must replace these placeholders with actual Git metadata.
+Unlike the GEO External Operator dependency, this repository is used
+here as a provenance reference rather than as an executable dependency
+of the GEO-Hubble reproduction chain.
+
+The formulas attributed to the original GEO framework are documented
+individually below and in `FORMULA_PROVENANCE.md`.
 
 ---
 
